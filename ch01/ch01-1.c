@@ -3,12 +3,8 @@
 //³¯Â¥
 
 #include <stdio.h>
-
-int main() {
-
-	printf("test");
-	printf("test");
-	printf("test");
-
+int main(void) 
+{
+	printf("Hello World");
+	return 0;
 }
-
