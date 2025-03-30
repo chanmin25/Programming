@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void school(void)
 {
 	int num;
 	float x;
@@ -27,5 +27,11 @@ int main(void)
 
 	printf("%d번 학생의 학점은 %f입니다.\n", num, x);
 
+	return 0;
+}
+
+int main(void)
+{
+	school();
 	return 0;
 }

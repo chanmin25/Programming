@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void weight (void)
 {
 	float x;
 
@@ -23,5 +23,11 @@ int main(void)
 
 	printf("입력한 몸무게는 %.2f KG입니다.\n", x);
 
+	return 0;
+}
+
+int main(void)
+{
+	weight();
 	return 0;
 }

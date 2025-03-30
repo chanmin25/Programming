@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void vkdl(void)
 {
 	double pi = 3.14159265;
 
@@ -24,5 +24,11 @@ int main(void)
 	printf("%.8lf\n", pi);
 	printf("%e\n", pi);
 
+	return 0;
+}
+
+int main(void)
+{
+	vkdl();
 	return 0;
 }

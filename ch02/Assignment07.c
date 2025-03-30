@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void coffee(void)
 {
 	int num;
 	char size;
@@ -24,5 +24,11 @@ int main(void)
 
 	printf("%c 사이즈 %d잔을 주문합니다.\n", size, num);
 
+	return 0;
+}
+
+int main(void)
+{
+	coffee();
 	return 0;
 }

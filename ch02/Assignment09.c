@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void yours(void)
 {
 	int num;
 
@@ -22,6 +22,12 @@ int main(void)
 
 	printf("16진수 %x는 10진수로 %d입니다.\n", num , num);
 
+	return 0;
+}
+
+int main(void)
+{
+	yours();
 	return 0;
 }
 

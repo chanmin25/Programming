@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void mine(void)
 {
 	int num;
 
@@ -27,5 +27,11 @@ int main(void)
 	printf("10진수: %d\n", num);
 	printf("16진수: %#x\n", num);
 
+	return 0;
+}
+
+int main(void)
+{
+	mine();
 	return 0;
 }

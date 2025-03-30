@@ -12,9 +12,15 @@
 
 #include <stdio.h>
 
-int main(void)
+void trip (void)
 {
 	printf("int main(void)\n{\n   return 0;\n}");
 
+	return 0;
+}
+
+int main(void)
+{
+	trip();
 	return 0;
 }
