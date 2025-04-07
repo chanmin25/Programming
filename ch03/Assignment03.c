@@ -13,14 +13,14 @@
 
 #include <stdio.h>
 
-double dpsjwl(int weight, int height)
+double calcPositionEnergy(int weight, int height)
 {
 	double energy;
 	energy = 9.8 * weight * height;
 	return energy;
 }
 
-void tkaqjs(void)
+void Assignment0303(void)
 {
 	int kg;
 	int m;
@@ -32,7 +32,7 @@ void tkaqjs(void)
 	printf("높이(m)?");
 	scanf("%d", &m);
 
-	energy = dpsjwl(kg, m);
+	energy = calcPositionEnergy(kg, m);
 	printf("위치에너지: %.6lf J\n", energy);
 
 	return 0;
@@ -40,6 +40,6 @@ void tkaqjs(void)
 
 int main(void)
 {
-	tkaqjs();
+	Assignment0303();
 	return 0;
 }
