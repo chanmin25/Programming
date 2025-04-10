@@ -6,7 +6,7 @@
 
 *작성자 : 정찬민
 
-*날짜 : 2025.04.09
+*날짜 : 2025.04.10
 
 *버전 : v1.0
 */
@@ -16,5 +16,26 @@
 
 void zjavbxj(void)
 {
+	unsigned char vl, ch, vk;
+	int rgb;
 
+	printf("red? ");
+	scanf("%hhu", &vl);
+
+	printf("green? ");
+	scanf("%hhu", &ch);
+
+	printf("blue? ");
+	scanf("%hhu", &vk);
+
+	rgb = vl | ch << 8 | vk << 16;
+	printf("RGB 트루걸러: %06X", rgb);
+
+	return 0;
+}
+
+int main(void)
+{
+	zjavbxj();
+	return 0;
 }
